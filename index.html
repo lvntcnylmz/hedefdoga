@@ -1,12 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
-  </head>
-  <body>
-    <h1>This is a test page.</h1> 
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hedef Doğa Sporları</title>
+  <link rel="icon" type="image/png" href="img/hedef-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="js/lib.js" id="lib"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html"> <img src="img/hedef-logo.png" alt="hedef-logo">
+          Hedef Doğa Sporları
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Ana Sayfa</a></li>
+          <li><a href="#projects">Değerlerimiz</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hedef Doğa Sporları</h1>
+        <p>Doğayla iç içe, keşif dolu ve sağlıklı maceralar için buradayız. Her pedal çeviriş yeni bir yolculuktur.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Değerlerimiz</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <!-- <div class="project-img"> -->
+          <!--   <img -->
+          <!--     src="https://public.youware.com/users-website-assets/prod/94d6ebcf-2f2e-4c88-964f-2d73b55501e0/311e77cd32724446b59269ec4903d4ec.jpg" -->
+          <!--     alt="Modern Library Architecture"> -->
+          <!-- </div> -->
+          <div class="project-info">
+            <h3><i class='fa-solid fa-bicycle'></i> Bisiklet Tutkusu</h3>
+            <p>Her pedal çevirişimizde tutkuyu, özgürlüğü ve keşfetmenin heyecanını hissediyoruz.</p>
+          </div>
+        </div>
+
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3><i class='fa-solid fa-leaf'></i> Doğa Sevgisi</h3>
+              <p>Doğayı korumayı, onunla uyum içinde yaşamayı ve her yolculukta doğanın değerini hatırlatmayı
+                hedefliyoruz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3><i class='fa-solid fa-people-group'></i> Dayanışma</h3>
+              <p>Birlikte pedallıyor, zorlukları birlikte aşıyor ve her üyemizi bu ailenin bir parçası olarak görüyoruz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3><i class='fa-solid fa-recycle'></i> Sürdürülebilirlik</h3>
+              <p>Bisikleti çevre dostu bir ulaşım biçimi olarak benimseyerek sürdürülebilir bir gelecek için hareket
+                ediyoruz.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3><i class='fa-solid fa-heart-pulse'></i> Sağlık ve Güvenlik</h3>
+              <p>Her etkinlikte sağlığı, güvenliği ve bilinçli sürüşü ön planda tutuyoruz.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3><i class='fa-solid fa-handshake'></i> Saygı ve Sorumluluk</h3>
+              <p>Doğaya, topluma ve birbirimize karşı duyarlı ve sorumlu bir kulüp anlayışı benimsiyoruz.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title">Biz Kimiz?</h2>
+          <p>
+            Lüleburgaz'da bir araya gelerek oluşturduğumuz HEDEF DOĞA SPORLARI isimli grubumuzda bisiklet, trekking,
+            kampçılık gibi karasal spor faaliyetlerini gerçekleştirerek doğa sporlarının yükselen grafiğine yeni
+            arkadaşlıklar ile ayak uydurmaktayız.
+          </p>
+          <div class="skills">
+            <div class="skill-tag">Bisiklet</div>
+            <div class="skill-tag">Trekking</div>
+            <div class="skill-tag">Kampçılık</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Bize Ulaşın</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>İletişim Bilgileri</h3>
+          <p>İşbirliği, soru veya sadece merhaba demek için çekinmeden bize ulaşın.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>info@hedefdogasporlari.com</span>
+            </div>
+            <!-- <div class="contact-item"> -->
+            <!--   <i class="fas fa-phone"></i> -->
+            <!--   <span>+90 (xxx)xxxxxxx</span> -->
+            <!-- </div> -->
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Lüleburgaz, Kırklareli</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" action="mailto:info@hedefdogasporlari.com" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="name">İsim</label>
+              <input type="text" id="name" name="İsim" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="E-posta" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Konu Başlığı</label>
+              <input type="text" id="subject" name="Konu" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="Mesaj" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="copyright">
+          <p>&copy 2025 Hedef Doğa Sporları. Tüm hakları saklıdır. 🤟</p>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/hedefdogasporlari/" aria-label="Instagram"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/hedefdogasporlari" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
