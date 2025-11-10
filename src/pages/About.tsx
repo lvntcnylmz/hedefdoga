@@ -16,18 +16,18 @@ export default function About() {
             alt="hedef community logo"
           />
 
-          <p className="lead fw-normal">
+          <p className="fw-normal">
             Hedef Doğa Sporları, 2015 yılında kurulmuş ve doğayı, sporu ve
-            sosyal dayanışmayı birleştiren bir kulüp olarak faaliyet
+            sosyal dayanışmayı birleştiren bir grup olarak faaliyet
             göstermektedir. Türkiye Bisikletliler Derneği’nin Lüleburgaz şubesi
             olarak, hem bisiklet hem de açık hava etkinliklerinde üyelerine
-            güvenli ve keyifli deneyimler sunmaktadır. Kulübümüz, yürüyüş,
+            güvenli ve keyifli deneyimler sunmaktadır. Grubumuz, yürüyüş,
             trekking, bisiklet, kamp ve diğer doğa sporları etkinlikleri ile
             şehir yaşamının stresinden uzaklaşmayı, doğayla bütünleşmeyi ve
             sağlıklı yaşamı teşvik etmeyi amaçlar.
             <br />
             <br />
-            Hedef Doğa Sporları, yalnızca bir spor kulübü değil; aynı zamanda
+            Hedef Doğa Sporları, yalnızca bir spor grubu değil; aynı zamanda
             doğayı koruma bilinci, tarihimize sahip çıkma ve keşfetme tutkusu
             etrafında birleşmiş bir topluluktur. Bizimle katıldığınız her
             etkinlik, bedeninizi ve ruhunuzu besler, doğayla bağınızı
