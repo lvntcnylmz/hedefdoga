@@ -17,7 +17,7 @@ export default function About() {
           />
 
           <p className="fw-normal">
-            Hedef Doğa Sporları, 2015 yılında kurulmuş ve doğayı, sporu ve
+            Hedef Doğa Sporları, 2014 yılında kurulmuş ve doğayı, sporu ve
             sosyal dayanışmayı birleştiren bir grup olarak faaliyet
             göstermektedir. Türkiye Bisikletliler Derneği’nin Lüleburgaz şubesi
             olarak, hem bisiklet hem de açık hava etkinliklerinde üyelerine
