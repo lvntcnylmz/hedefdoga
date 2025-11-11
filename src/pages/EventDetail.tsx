@@ -18,16 +18,17 @@ export default function EventDetail() {
   return (
     <div className="container py-5">
       <h2 className="fw-bold">{event.title}</h2>
-      <p>
-        <strong>Tarih:</strong> {event.date}
+      <p className="fw-bold">
+        Tarih: <span className="fw-normal">{event.date}</span>
       </p>
       {event.location && (
-        <p>
-          <strong>Konum:</strong> {event.location}
+        <p className="fw-bold">
+          Konum: <span className="fw-normal">{event.location}</span>
         </p>
       )}
-      <p className="lead">{event.description}</p>
-
+      <p className="fw-normal" style={{ whiteSpace: "pre-line" }}>
+        {event.description}
+      </p>
       <div className="row mt-4">
         {event.images.map((img, i) => (
           <div key={i} className="col-md-4 mb-3">
@@ -50,7 +51,6 @@ export default function EventDetail() {
           </div>
         ))}
       </div>
-
       <Lightbox
         open={index >= 0}
         index={index}

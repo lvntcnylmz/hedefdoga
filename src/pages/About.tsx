@@ -9,13 +9,11 @@ export default function About() {
           style={{ textAlign: "justify", textJustify: "inter-word" }}
         >
           <h2 className="section-title text-center mb-4 fw-bold">Biz Kimiz?</h2>
-
           <img
             src={img}
             className="img-fluid mx-auto d-block mb-4"
             alt="hedef community logo"
           />
-
           <p className="fw-normal">
             Hedef Doğa Sporları, 2014 yılında kurulmuş ve doğayı, sporu ve
             sosyal dayanışmayı birleştiren bir grup olarak faaliyet
@@ -46,7 +44,6 @@ export default function About() {
             mutluluk bizim için en büyük motivasyondur. Hedefimiz doğayı
             koruyarak, doğayla birlikte yaşamak. Kısacası hedefimiz doğa.
           </p>
-
           <div className="d-flex flex-wrap gap-2 mt-3">
             <span className="badge bg-primary">Bisiklet</span>
             <span className="badge bg-success">Trekking</span>

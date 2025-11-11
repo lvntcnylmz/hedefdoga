@@ -3,14 +3,25 @@ import img from "../assets/lubifest.jpg";
 export default function Home() {
   return (
     <div>
-      <section className="hero bg-light text-center">
-        <img src={img} className="img-fluid" alt="Etkinlik" />
-        <div className="container">
-          <div className="position-absolute top-50 start-50 translate-middle text-white bg-dark bg-opacity-50 px-3 py-2 rounded">
-            <h1 className="fw-bold">Hedef Doğa Sporları'na Hoşgeldiniz</h1>
-            <p className="fw-semibold">
+      <section className="hero position-relative text-center">
+        <img
+          src={img}
+          className="img-fluid w-100"
+          alt="Etkinlik"
+          style={{ objectFit: "cover", height: "95vh", minHeight: "300px" }}
+        />
+        <div className="position-absolute top-50 start-50 translate-middle w-100 px-3">
+          <div
+            className="bg-dark bg-opacity-50 text-white rounded p-3 p-md-4 mx-auto"
+            style={{ maxWidth: "600px" }}
+          >
+            <h1 className="fw-bold fs-4 fs-md-2 mb-2">
+              Hedef Doğa Sporları'na Hoşgeldiniz
+            </h1>
+            <p className="fw-semibold fs-6 fs-md-5 mb-0">
               Doğayla iç içe, keşif dolu ve sağlıklı maceralar için buradayız.
-              <br /> Her pedal çeviriş yeni bir yolculuktur.
+              <br className="d-none d-md-block" />
+              Her pedal çeviriş yeni bir yolculuktur.
             </p>
           </div>
         </div>

@@ -5,8 +5,8 @@ export default function Contact() {
         <h2 className="section-title text-center mb-4 fw-bold text-underline">
           Bize Ulaşın
         </h2>
-        <div className="row">
-          <div className="col-6">
+        <div className="row g-3">
+          <div className="col-md-6">
             <h3 className="fw-semibold">İletişim Bilgileri</h3>
             <ul className="list-unstyled">
               <li>
@@ -42,7 +42,7 @@ export default function Contact() {
               ></iframe>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <h3 className="fw-semibold">Mesaj Gönderin</h3>
             <form
               action="mailto:info@hedefdogasporlari.com"

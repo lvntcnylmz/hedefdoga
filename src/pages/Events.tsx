@@ -6,12 +6,12 @@ export default function Events() {
     <section className="events py-5">
       <div className="container">
         <h2 className="fw-bold">Yaptığımız Etkinlikler</h2>
-        <div className="row mt-3">
+        <div className="row g-3 mt-3">
           {events
             .slice()
             .reverse()
             .map((e) => (
-              <div className="col-3" key={e.id}>
+              <div className="col-md-4" key={e.id}>
                 <div className="card h-100">
                   <img
                     src={e.images[0]}

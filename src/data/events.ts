@@ -23,19 +23,12 @@ export const events: Event[] = [
     id: 3,
     title: "Lüleburgaz'ın Kurtuluşu Kortej Yürüyüşü",
     date: "8 Kasım 2025",
-    description: `
-
-Her yıl Lüleburgaz sokaklarını coşkuyla dolduran 8 Kasım Kurtuluş Günü kortejinde biz de vardık. Hedef Doğa Sporları olarak doğaya, spora ve dayanışmaya olan tutkumuzu bu anlamlı günde kentin enerjisiyle birleştirdik.
-
-Gün, sabahın erken saatlerinde hazırlıklarla başladı. Bisikletlerimizi süsledik, kulübümüzün bayraklarını taktık ve kortejdeki yerimizi aldık. Şehrin dört bir yanından gelen insanların coşkusunu görmek tarifsizdi. Ellerinde bayraklarla yürüyen çocuklar, marşlar söyleyen gençler, alkışlarla destek veren halk… Hep birlikte aynı duyguda buluştuk: özgürlük ve birlik.
-
-Kortej boyunca sokaklarda yankılanan müzik, renkli kostümler ve gurur dolu bakışlar, Lüleburgaz’ın kurtuluşunun sadece bir tarih değil, yaşayan bir ruh olduğunu bir kez daha gösterdi. Biz de bu ruhun bir parçası olmaktan büyük mutluluk duyduk.
-
-Yürüyüşümüz sadece bir kutlama değil, aynı zamanda doğaya ve yaşama olan bağlılığımızın da sembolüydü. Hedef Doğa Sporları olarak, tarihimize sahip çıkarken doğanın ve hareketin birleştirici gücünü hissettik.
-
-Yorgunduk ama mutluyduk. Çünkü bu toprakların hikâyesine bir sayfa da biz eklemiştik.
-
-Hedef Doğa Sporları olarak, her adımda hem doğayı hem de değerlerimizi yaşatmaya devam edeceğiz.`,
+    description: `Her yıl Lüleburgaz sokaklarını coşkuyla dolduran 8 Kasım Kurtuluş Günü kortejinde biz de vardık. Hedef Doğa Sporları olarak doğaya, spora ve dayanışmaya olan tutkumuzu bu anlamlı günde kentin enerjisiyle birleştirdik.
+    Gün, sabahın erken saatlerinde hazırlıklarla başladı. Bisikletlerimizi süsledik, kulübümüzün bayraklarını taktık ve kortejdeki yerimizi aldık. Şehrin dört bir yanından gelen insanların coşkusunu görmek tarifsizdi. Ellerinde bayraklarla yürüyen çocuklar, marşlar söyleyen gençler, alkışlarla destek veren halk… Hep birlikte aynı duyguda buluştuk: özgürlük ve birlik.
+    Kortej boyunca sokaklarda yankılanan müzik, renkli kostümler ve gurur dolu bakışlar, Lüleburgaz’ın kurtuluşunun sadece bir tarih değil, yaşayan bir ruh olduğunu bir kez daha gösterdi. Biz de bu ruhun bir parçası olmaktan büyük mutluluk duyduk.
+    Yürüyüşümüz sadece bir kutlama değil, aynı zamanda doğaya ve yaşama olan bağlılığımızın da sembolüydü. Hedef Doğa Sporları olarak, tarihimize sahip çıkarken doğanın ve hareketin birleştirici gücünü hissettik.
+    Yorgunduk ama mutluyduk. Çünkü bu toprakların hikâyesine bir sayfa da biz eklemiştik.
+    Hedef Doğa Sporları olarak, her adımda hem doğayı hem de değerlerimizi yaşatmaya devam edeceğiz.`,
     location: "Lüleburgaz, Türkiye",
     images: [
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1762685070/WhatsApp_Image_2025-11-08_at_08.36.17_dvqosl.jpg",
