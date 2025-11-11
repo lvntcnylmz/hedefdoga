@@ -97,7 +97,11 @@ export default function Contact() {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button
+                type="submit"
+                className="btn btn-primary"
+                style={{ background: "#2E72AE" }}
+              >
                 Gönder
               </button>
             </form>

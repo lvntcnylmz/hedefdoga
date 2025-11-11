@@ -47,7 +47,7 @@ export default function Navbar() {
                 className="nav-link text-light"
                 onClick={toggleMenu}
               >
-                <i className="bi bi-house-door me-2"></i> Ana Sayfa
+                <i className="bi bi-house-door-fill me-2"></i> Ana Sayfa
               </NavLink>
             </li>
             <li className="nav-item">
@@ -56,7 +56,7 @@ export default function Navbar() {
                 className="nav-link text-light"
                 onClick={toggleMenu}
               >
-                <i className="bi bi-calendar-event me-2"></i> Etkinlikler
+                <i className="bi bi-calendar-event-fill me-2"></i> Etkinlikler
               </NavLink>
             </li>
             <li className="nav-item">
@@ -65,7 +65,7 @@ export default function Navbar() {
                 className="nav-link text-light"
                 onClick={toggleMenu}
               >
-                <i className="bi bi-people me-2"></i> Hakkımızda
+                <i className="bi bi-people-fill me-2"></i> Hakkımızda
               </NavLink>
             </li>
             <li className="nav-item">
@@ -74,7 +74,7 @@ export default function Navbar() {
                 className="nav-link text-light"
                 onClick={toggleMenu}
               >
-                <i className="bi bi-envelope me-2"></i> İletişim
+                <i className="bi bi-envelope-fill me-2"></i> İletişim
               </NavLink>
             </li>
           </ul>
@@ -83,22 +83,22 @@ export default function Navbar() {
           <ul className="navbar-nav d-flex flex-row gap-3 mb-0 fw-medium">
             <li className="nav-item">
               <NavLink to="/" className="nav-link text-light">
-                <i className="bi bi-house-door me-1"></i> Ana Sayfa
+                <i className="bi bi-house-door-fill me-1"></i> Ana Sayfa
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/events" className="nav-link text-light">
-                <i className="bi bi-calendar-event me-1"></i> Etkinlikler
+                <i className="bi bi-calendar-event-fill me-1"></i> Etkinlikler
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/about" className="nav-link text-light">
-                <i className="bi bi-people me-1"></i> Hakkımızda
+                <i className="bi bi-people-fill me-1"></i> Hakkımızda
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/contact" className="nav-link text-light">
-                <i className="bi bi-envelope me-1"></i> İletişim
+                <i className="bi bi-envelope-fill me-1"></i> İletişim
               </NavLink>
             </li>
           </ul>
@@ -116,6 +116,29 @@ export default function Navbar() {
           opacity: 1;
           transform: translateY(0);
           pointer-events: all;
+        }
+        .nav-link {
+          transition: color 0.3s, text-decoration-color 0.3s;
+          position: relative;
+        }
+        .nav-link::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -3px;
+          width: 100%;
+          height: 2px;
+          background-color: #8BB934;
+          transform: scaleX(0);
+          transform-origin: right;
+          transition: transform 0.3s ease;
+        }
+        .nav-link:hover::after {
+          transform: scaleX(1);
+          transform-origin: left;
+        }
+        .nav-link:hover {
+          color: #8BB934 !important;
         }
       `}</style>
     </header>

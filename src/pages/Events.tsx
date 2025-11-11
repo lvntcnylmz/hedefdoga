@@ -28,6 +28,7 @@ export default function Events() {
                     <Link
                       to={`/etkinlik/${e.id}`}
                       className="btn btn-primary mt-auto"
+                      style={{ background: "#2E72AE" }}
                     >
                       Detaylar
                     </Link>
