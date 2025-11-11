@@ -1,6 +1,5 @@
 import type { Event } from "../types";
-import error from "../assets/error.jpg";
-import under_construct from "../assets/under_construct.jpg";
+import under_construct from "../assets/under_construct.png";
 
 export const events: Event[] = [
   {
@@ -9,7 +8,7 @@ export const events: Event[] = [
     date: "12-13-14 Eylül 2025",
     description: "Lüleburgaz Bisiklet Festivali",
     location: "Lüleburgaz, Türkiye",
-    images: [error],
+    images: [under_construct],
   },
   {
     id: 0,

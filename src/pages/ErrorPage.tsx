@@ -1,4 +1,4 @@
-import img from "../assets/under_construct.jpg";
+import img from "../assets/under_construct.png";
 
 export default function ErrorPage() {
   return (

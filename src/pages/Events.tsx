@@ -20,14 +20,16 @@ export default function Events() {
                     style={{ height: "200px", objectFit: "cover" }}
                   />
                   <div className="card-body d-flex flex-column">
-                    <h5 className="card-title fw-semibold">{e.title}</h5>
+                    <h5 className="card-title fw-semibold text-truncate">
+                      {e.title}
+                    </h5>
                     <p className="card-text">{e.date}</p>
                     {e.location && (
                       <p className="card-text fw-medium">Konum: {e.location}</p>
                     )}
                     <Link
                       to={`/etkinlik/${e.id}`}
-                      className="btn btn-primary mt-auto"
+                      className="btn btn-primary fw-medium"
                       style={{ background: "#2E72AE" }}
                     >
                       Detaylar
