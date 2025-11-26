@@ -1,48 +1,33 @@
 <!doctype html>
-<html lang="tr">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>Sayfa Bulunamadı</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <script>
       (function () {
-        // Şu anki yol (örn: /about, /etkinlik/123, vs.)
-        var path = window.location.pathname;
-
-        // GitHub Pages tarafından serve edilen 404.html'in tam yolu
-        var is404 = path.endsWith("404.html") || path.endsWith("/404");
-
-        // Eğer gerçekten 404.html içindeysek → index.html’e yönlendir
-        if (is404) {
-          // Orijinal path'i hash içine taşı
-          var newUrl =
-            window.location.origin +
-            "/#" +
-            window.location.pathname +
-            window.location.search;
-          window.location.replace(newUrl);
+        var redirect = sessionStorage.getItem("redirect");
+        if (redirect) {
+          sessionStorage.removeItem("redirect");
+          window.location.replace(redirect);
         }
       })();
     </script>
-
-    <style>
-      body {
-        font-family: system-ui, sans-serif;
-        background: #fafafa;
-        height: 100vh;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #333;
-      }
-    </style>
   </head>
   <body>
-    <h1>Sayfa Bulunamadı</h1>
-    <p>Yönlendiriliyorsunuz…</p>
-    <a href="/">Ana Sayfa</a>
+    <script>
+      var current = window.location.pathname + window.location.search;
+
+      var indexUrl = "/";
+
+      var target = indexUrl + "#" + current;
+
+      sessionStorage.setItem("redirect", target);
+
+      window.location.replace(indexUrl);
+    </script>
+
+    <noscript>Bu site JavaScript gerektirir.</noscript>
   </body>
 </html>
