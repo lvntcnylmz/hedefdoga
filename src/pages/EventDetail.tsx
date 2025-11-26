@@ -18,12 +18,14 @@ export default function EventDetail() {
   return (
     <div className="container py-5">
       <h2 className="fw-bold">{event.title}</h2>
-      <p className="fw-bold">
-        Tarih: <span className="fw-normal">{event.date}</span>
+      <p>
+        <strong>Tarih: </strong>
+        {event.date}
       </p>
       {event.location && (
-        <p className="fw-bold">
-          Konum: <span className="fw-normal">{event.location}</span>
+        <p>
+          <strong>Konum: </strong>
+          {event.location}
         </p>
       )}
       <p className="fw-normal" style={{ whiteSpace: "pre-line" }}>

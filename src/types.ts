@@ -3,6 +3,6 @@ export interface Event {
   title: string;
   date: string;
   description: string;
-  images: string[]; // Cloudinary URL’leri
+  images: string[];
   location: string;
 }
