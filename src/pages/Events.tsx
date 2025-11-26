@@ -13,6 +13,7 @@ export default function Events() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
+            style={{ background: "#2E72AE" }}
           >
             Risk Kabul Beyanı Önizle / İndir
           </a>

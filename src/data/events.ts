@@ -7,15 +7,15 @@ export const events: Event[] = [
     title: "Lübifest7",
     date: "12-13-14 Eylül 2025",
     description: "Lüleburgaz Bisiklet Festivali",
-    location: "Lüleburgaz, Türkiye",
+    location: "Lüleburgaz/Kırklareli",
     images: [under_construct],
   },
   {
     id: 2,
     title: "Kıyıköy Trekking",
     date: "2 Kasım 2025",
-    description: "Kıyıköy - Korsan Koyu'nda yaptığımız trekking",
-    location: "Kıyıköy/Lüleburgaz, Türkiye",
+    description: "Kıyıköy - Korsan Koyu'nda yaptığımız trekking etkinliği",
+    location: "Kıyıköy – Vize/Kırklareli",
     images: [
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1764165677/IMG_8071_qctvoc.jpg",
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1764160200/IMG_7950_qxu3u1.jpg",
@@ -40,7 +40,7 @@ export const events: Event[] = [
     Yürüyüşümüz sadece bir kutlama değil, aynı zamanda doğaya ve yaşama olan bağlılığımızın da sembolüydü. Hedef Doğa Sporları olarak, tarihimize sahip çıkarken doğanın ve hareketin birleştirici gücünü hissettik.
     Yorgunduk ama mutluyduk. Çünkü bu toprakların hikâyesine bir sayfa da biz eklemiştik.
     Hedef Doğa Sporları olarak, her adımda hem doğayı hem de değerlerimizi yaşatmaya devam edeceğiz.`,
-    location: "Lüleburgaz, Türkiye",
+    location: "Lüleburgaz/Kırklareli",
     images: [
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1762685070/WhatsApp_Image_2025-11-08_at_08.36.17_dvqosl.jpg",
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1762685086/WhatsApp_Image_2025-11-08_at_13.48.27_2_tplmef.jpg",
@@ -56,5 +56,13 @@ export const events: Event[] = [
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1762685071/WhatsApp_Image_2025-11-08_at_10.18.15_x0in1l.jpg",
       "https://res.cloudinary.com/dreya7ccy/image/upload/v1762685070/WhatsApp_Image_2025-11-08_at_10.49.26_ycaqnb.jpg",
     ],
+  },
+  {
+    id: 0,
+    title: "Uçmakdere Trekking",
+    date: "23 Kasım 2025",
+    description: "Uçmakdere'de yaptığımız trekking etkinliği",
+    location: "Uçmakdere - Şarköy/Tekirdağ",
+    images: [under_construct],
   },
 ];
